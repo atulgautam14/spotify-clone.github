@@ -1,0 +1,43 @@
+/*Stying for small screens*/
+@media screen and (max-width: 800px) {
+    .container {
+        max-width: 100%;
+        width: 100%;
+        margin: auto;
+      }
+
+    .home {
+    background-image: linear-gradient(77deg, black, #ffffff00), url(/images/channels4_profile.jpg);
+    height: 37rem;
+    padding-left: 2.9rem;
+    background-size: cover;
+}
+.home h1{
+    font-size: 5rem;
+    color: white;
+ }
+ .one {
+ padding-top: 1rem;
+    padding-left: 4.9rem;
+    padding-right:2rem ;
+}
+.main{
+    padding-top: 1rem;
+    padding-left:3rem;
+  
+  }
+  .songitem img {
+    width: 18%;
+    object-fit: contain;
+}
+#myProgressBar{
+    width: 51vh;
+    margin-bottom: auto;
+    margin-top: auto;
+    
+    
+    }
+
+
+    
+}

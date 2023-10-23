@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html {
+    font-size: 62.5%;
+    font-family: 'Roboto Slab', Helvetica, Arial, -apple-system, BlinkMacSystemFont, sans-serif;
+  }
+  
+  #wrapper {
+    background-color: #222630;
+    color: white;
+  }
+  
+  /* ===============================================UTILITY CLASSES=========================================================================== */
+  
+  .container {
+    max-width: 1000px;
+    width: 90%;
+    margin: auto;
+    min-height: 75vh;
+  }
+  
+  
+  h1 {
+    font-size: 3.2rem;
+  }
+  
+  h2 {
+    font-size: 2.4rem;
+  }
+  
+  p,
+  div,
+  li,
+  a {
+    font-size: 1.6rem;
+  
+  }
+  /* ==============================home========================= */
+
+  .home {
+    /* background-image: url(/images/3488562.jpg); */
+    background-blend-mode: darken;
+    height: 51rem;
+    background-image: linear-gradient(77deg, black, #ffffff00), url(/images/3488562.jpg);
+    display: flex;
+    background-repeat: no-repeat;
+    align-items: flex-start;
+    font-family: 'Ubuntu', sans-serif;
+    flex-direction: column;
+    align-content: flex-start;
+    justify-content: space-between;
+    padding-top: 1rem;
+    padding-left: 4rem;
+    }
+
+.main{
+  padding-top: 1rem;
+  padding-left: 4.7rem;
+
+}
+i.fa-solid.fa-shuffle {
+  margin-right: 1rem;
+}
+.home h1{
+   font-size: 13.2rem;
+   color: white;
+   padding-bottom: 1rem;
+}
+.one {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 4.7rem;
+  padding-right: 4rem;
+}
+button {
+  background-color: black;
+  color: white;
+  padding: 7px;
+  border: 1px solid white;
+  font-size: 1.5rem;
+  border-radius: 5px;
+}
+.inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  width: 85px;
+}
+.fa-solid{
+  font-size: 3rem;
+}
+i.fa-solid.fa-circle-play {
+  color: #1ed760;
+  font-size: 5.5rem;
+
+}
+.inner2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;}
+
+
+
+  .songitem {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-wrap: nowrap;
+    padding: 2rem;
+    justify-content: space-around;
+}
+/* .songitem span{
+  margin: 1rem;
+} */
+
+    .songitem img {
+      width: 10%;
+      object-fit: contain;
+  }
+
+  .son {
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: flex-start;
+}
+
+.bottom{
+  position: sticky;
+  height: 97px;
+  background-color: black;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#myProgressBar{
+width: 80vh;
+
+
+}
+.icons {
+  color: white;
+  display: flex;
+  margin-top: -0.6rem;
+  width: 45%;
+  margin-bottom:   1.5rem;
+  justify-content: space-evenly;
+  align-items: center;
+
+}
+.mainl{
+  background-image: linear-gradient(77deg, black, #403d3d);
+  color: white;
+}
+.two {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hlo {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row;
+  width: 820px;
+}
